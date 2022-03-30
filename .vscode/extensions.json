@@ -1,8 +1,11 @@
+#include<stdio.h>
+int main()
 {
-	// See https://go.microsoft.com/fwlink/?LinkId=827846
-	// for the documentation about the extensions.json format
-	"recommendations": [
-		"dbaeumer.vscode-eslint",
-		"EditorConfig.EditorConfig"
-	]
+int a,b,sum;
+printf("Enter a number: \n");
+scanf("%d",&a);
+printf("Enter a number: \n");	
+scanf("%d",&b);
+sum=a+b;
+printf("The sum is %d", sum)
 }
